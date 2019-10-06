@@ -11,6 +11,24 @@
   "main": "apk.js"
 },
 {
+  "name": "Html",
+  "version": "5",
+  "description": "Tecnologia web para marcar informacion",
+  "main": "apk.html"
+},
+{
+  "name": "Css",
+  "version": "5",
+  "description": "Tecnologia web para estilizar informacion.",
+  "main": "apk.css"
+},
+{
+  "name": "Python",
+  "version": "3",
+  "description": "Tecnologia para crear scripts para web y distintas plataformas..",
+  "main": "apk.py"
+},
+{
   "name": "Java",
   "version": "8",
   "description": "Tecnologia para crear software puros y webapp",

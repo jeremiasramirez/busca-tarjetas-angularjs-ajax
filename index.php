@@ -10,7 +10,7 @@
 		<script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
 		<script type="text/javascript" src="public/js/main.js"></script>
 	</head>
-	<body>
+	<body style="background-color: #eee">
  
 <p class="alert--error">Data externa Ajax </p>
 
@@ -18,12 +18,12 @@
 	<input type="text" ng-model="search__card" placeholder="Search programing language"><br><br>
 
 	<button ng-click="mostrar()" class="btn--add" 
-	 ng-hide="btn2">Mostrar </button>
+	 ng-hide="btn2">Mostrar todos</button>
 
 	<button ng-click="ocultar()" class="btn--rm" 
-	ng-hide="btn">Ocultar</button>
+	ng-hide="btn">Ocultar cards</button>
 
-	<div ng-repeat="data in datos | filter:search__card" ng-hide="sh" style="background-color: #eee" 
+	<div ng-repeat="data in datos | filter:search__card" ng-hide="sh" style="background-color: #EAD2FF" 
 	class="animated fadeInUp">
 		
 		<p>Nombre <strong>{{data.name}}</strong></p>

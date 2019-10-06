@@ -1,57 +1,66 @@
- let app = angular.module("ajaxApp", []);
+(()=>{
 
-app.controller("dataExtern", ['$scope','$http', function($scope, $http){
-    
-    $scope.datos = {};
-    $scope.sh = 1;
-    $scope.btn = 1;
-    $scope.btn2 = 0;
+/*
 
-    /*
+ *** init module angularJs *** 
 
-    ocultando y mostrando botones al dibujarse datos.
+*/
+  let app = angular.module("ajaxApp", []);
 
-
-    */
-
-
-    $scope.mostrar = ()=>{
-
-      $scope.sh= 0;
-      $scope.btn= 0;
-      $scope.btn2= 1;
-
-    }
-
-
-    $scope.ocultar = ()=>{
-
-      $scope.sh =1;
-      $scope.btn2 = 0;
+  app.controller("dataExtern", ['$scope','$http', function($scope, $http){
+      
+      $scope.datos = {};
+      $scope.sh = 1;
       $scope.btn = 1;
+      $scope.btn2 = 0;
 
-    }
+      /*
 
-
-
-    /*
-     http request 
+      ocultando y mostrando botones al dibujarse datos.
 
 
-    */
-
-    $http({
-
-      method: 'GET',
-      url: 'public/datajson/languages.json'
-
-    }).then(function(resp){
-        $scope.datos = resp.data;
-    })
+      */
 
 
+      $scope.mostrar = ()=>{
+
+        $scope.sh= 0;
+        $scope.btn= 0;
+        $scope.btn2= 1;
+
+      }
+
+
+      $scope.ocultar = ()=>{
+
+        $scope.sh =1;
+        $scope.btn2 = 0;
+        $scope.btn = 1;
+
+      }
 
 
 
-}])
- 
+      /*
+       http request 
+
+
+      */
+
+      $http({
+
+        method: 'GET',
+        url: 'public/datajson/languages.json'
+
+      }).then(function(resp){
+          $scope.datos = resp.data;
+      })
+
+
+
+
+
+  }])
+   
+
+})()
