@@ -1,0 +1,30 @@
+[{
+  "name": "C++",
+  "version": "lastversion",
+  "description": "Tecnologia para software en general",
+  "main": "apps.cpp"
+},
+{
+  "name": "Javascript",
+  "version": "1.4.0",
+  "description": "Tecnologia web frontend",
+  "main": "apk.js"
+},
+{
+  "name": "Php",
+  "version": "1.4.0",
+  "description": "Tecnologia para backend",
+  "main": "apk.php"
+},
+{
+  "name": "Laravel",
+  "version": "1.4.0",
+  "description": "framework web php",
+  "main": "apk.php"
+},
+{
+  "name": "NODE js",
+  "version": "1.2.1",
+  "description": "entorno de desarrollo javascript del lado servidor",
+  "main": "apk.js"
+}] 

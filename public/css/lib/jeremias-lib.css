@@ -1,0 +1,206 @@
+
+/*SIZING*/
+.minmin{
+	width: 150px;
+}.min{
+	width: 150px;
+}
+
+.small{
+	width: 320px;
+}
+.medium{
+	width: 400px;
+}
+
+.large{
+	width: 98%;
+}
+
+
+
+
+/*Mensajes alertas*/
+.alert--error{
+	padding: .8em .3em;
+	text-align: center;
+	border-radius: 3px;
+	background-color: orangered;
+	color:white;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+.alert--warning{
+	text-align: center;
+	padding: .8em .3em;
+	border-radius: 3px;
+	background-color: darkorange;
+	color:white;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+.alert--warning a{
+	color: white;
+	text-decoration: none;
+}
+
+.alert--success{
+	text-align: center;
+	padding: .8em .3em;
+	border-radius: 3px;
+	background-color: rgb(10%,63%,10%);
+	color:white;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+.alert--success a{
+	color: white;
+	text-decoration: none;
+}
+.alert--chargin{
+	text-align: center;
+	padding: .8em .3em;
+	border-radius: 3px;
+	background-color: #eee;
+	color: rgba(0%,0%, 90%, 40%);
+	box-shadow: 1px 1px 5px #aaa;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+.alert--chargin a{
+	color: rgba(0%, 70%, 0%, 80%);
+	text-decoration: none;
+}
+
+/*elementos visuales*/
+.fire{
+	box-shadow: 1px 1px 3px red; 
+}
+.close{
+	text-align: center;
+	border-radius: 50%;
+	padding:.2em .4em;
+	background-color: transparent;
+	color: white;
+	border:0;
+	font-family: sans-serif;
+	font-weight: 600;
+	float: right;
+	display: inline-block;
+	transition: .3s;
+
+ 
+ 
+}
+.close:hover{
+	cursor: pointer;
+	transition: .3s;
+	background-color: rgba(100%,0%,0%,70%);
+}
+
+/*BOTONES styles*/
+
+.btn--add  {
+
+	background-color: rgba(0%, 70%, 0%, 100%);
+	border-radius: 5px;
+	padding: .4em .5em;
+	border-color: transparent;
+	font-size: 15px;
+	font-family: arial;
+	font-weight: 600;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	transition: .3s;
+	color: #fff;
+}
+.btn--add:hover{
+	cursor: pointer;
+	transition: .3s;
+	background-color: green;
+	text-decoration: none;
+}
+/*button de remover */
+
+.btn--rm{
+
+	border-radius: 5px;
+	padding: .4em .5em;
+	border-color: transparent;
+	background-color: rgba(90%, 0%, 0%, 100%);
+	font-size: 15px;
+	font-family: arial;
+	font-weight: 600;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	transition: .3s;
+	color: #eee;
+}
+.btn--rm:hover{
+	transition: .3s;
+	background-color: rgba(80%, 0%, 0%, 100%);
+	text-decoration: none;
+	color: #eee;
+	cursor: pointer;
+}
+.btn--yes{
+
+	border-radius: 5px;
+	padding: .4em .5em;
+	border-color: transparent;
+	background-color: rgba(0%, 0%, 80%, 100%);
+	font-size: 15px;
+	font-family: arial;
+	font-weight: 600;
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	transition: .3s;
+	color: #eee;
+}
+.btn--yes:hover{
+	transition: .3s;
+	background-color: rgba(0%, 0%, 70%, 100%);
+	text-decoration: none;
+	color: #eee;
+	cursor: pointer;
+}
+
+/*formulario*/
+.form input{
+
+	border-radius: 5px;
+	padding: .3em .5em;
+	font-size: 18px;
+	border: 1px solid #ddd;
+	font-family: sans-serif;
+	text-align: center;
+	box-shadow: 1px 1px 3px #eee; 
+}
+ 
+ 
+ 	.floatback{
+ 		position: relative;
+ 	}
+ 	.responsive{
+ 		display: flex;
+ 		justify-content: center;
+ 		align-items: center;
+ 	}
+ 	.f{
+ 		display: grid;
+ 		justify-items: center;
+ 		grid-template-rows: 40% 40% 40%;
+ 		grid-template-columns: 100%; 
+
+ 		margin: .3em;
+ 	}
+ 	.f input{
+ 		margin: .2em;
+
+ 	}
