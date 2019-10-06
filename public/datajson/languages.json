@@ -11,6 +11,18 @@
   "main": "apk.js"
 },
 {
+  "name": "Java",
+  "version": "8",
+  "description": "Tecnologia para crear software puros y webapp",
+  "main": "apk.java"
+},
+{
+  "name": "Jquery",
+  "version": "8",
+  "description": "Tecnologia  frontend javascript para administrar el DOM mas rapido",
+  "main": "apk.js"
+},
+{
   "name": "Php",
   "version": "1.4.0",
   "description": "Tecnologia para backend",

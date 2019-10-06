@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr" ng-app="ajaxApp">
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>Busca tu lenguaje</title>
 		<link rel="stylesheet" href="public/css/main.css">
 		<link rel="stylesheet" href="public/css/lib/jeremias-lib.css">
 		<link rel="stylesheet" href="public/css/lib/animate.css">
@@ -27,12 +27,13 @@
 	class="animated fadeInUp">
 		
 		<p>Nombre <strong>{{data.name}}</strong></p>
+
 		<p>Version <strong>{{data.version}}</strong></p>
+
 		<p>Description <strong>{{data.description}}</strong></p>
+
 		<p>Main <strong>{{data.main}}</strong></p>
 
-
-		
 	<br>
 	<br>
 
