@@ -2,17 +2,17 @@
 
 /*
 
- *** init module angularJs *** 
+ *** init module angularJs ***
 
 */
   let app = angular.module("ajaxApp", []);
 
   app.controller("dataExtern", ['$scope','$http', function($scope, $http){
-      
-      $scope.datos = {};
-      $scope.sh = 1;
-      $scope.btn = 1;
-      $scope.btn2 = 0;
+
+      $scope.datos = [];
+      $scope.sh = 0;
+      $scope.btn = 0;
+      $scope.btn2 = 1;
 
       /*
 
@@ -42,7 +42,7 @@
 
 
       /*
-       http request 
+       http request
 
 
       */
@@ -61,6 +61,6 @@
 
 
   }])
-   
+
 
 })()
