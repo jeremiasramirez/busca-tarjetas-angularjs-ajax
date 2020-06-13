@@ -1,0 +1,310 @@
+/*
+ 1. alert--error
+ 2. alert--success
+ 3. alert--warning
+ 4. alert--await
+ 5. alert--transparent
+ 6. alert--magenta
+ 7. alert--blue
+ 8. alert--blue-dark
+ 9. alert--purple
+ 10. alert--orange
+ 11. alert--red
+ */
+
+ /* notifications alert */
+.alert--error{
+
+  background-color: rgba(212, 36, 58, 0.904);
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: #eee;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--error *{
+  margin: 0;
+  padding:0;
+  font-size: 15.8px;
+}
+
+
+
+
+.alert--success{
+
+  background-color: #28ad33;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: white;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--success *{
+  margin: 0;
+  padding:0;
+  font-size: 15.8px;
+}
+
+
+
+
+
+
+
+.alert--warning{
+
+  background-color: #c78c20;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: white;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--warning *{
+  margin: 0;
+  padding:0;
+    font-size: 15.8px;
+}
+
+
+
+
+
+
+
+
+
+.alert--await{
+
+  background-color: #f5f1eb;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: #222;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--await *{
+  margin: 0;
+  padding:0;
+  font-size: 15.8px;
+}
+
+
+
+
+
+.alert--transparent{
+
+  border: 1px solid white;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: #eee;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--transparent *{
+  margin: 0;
+    font-size: 15.8px;
+  padding:0;
+}
+
+
+
+/* alert colors */
+
+
+
+.alert--green{
+
+  border: 1px solid white;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: #eee;
+  background-color: #28ad33;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--green *{
+  margin: 0;
+    font-size: 15.8px;
+  padding:0;
+}
+
+
+
+
+
+
+
+
+
+
+.alert--magenta{
+
+  border: 1px solid white;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: #eee;
+  background-color: #ca2bd6;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--magenta *{
+  margin: 0;
+    font-size: 15.8px;
+  padding:0;
+}
+
+
+
+
+
+.alert--purple{
+
+  border: 1px solid white;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: #eee;
+  background-color: #790182;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--purple *{
+  margin: 0;
+    font-size: 15.8px;
+  padding:0;
+}
+
+
+
+
+
+
+.alert--blue-dark{
+
+  border: 1px solid white;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: #eee;
+  background-color: rgba(33, 52, 139, 0.984);
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--blue-dark *{
+  margin: 0;
+    font-size: 15.8px;
+  padding:0;
+}
+
+
+
+
+
+
+
+.alert--blue{
+
+  border: 1px solid white;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: #eee;
+  background-color: rgb(90, 113, 219);
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--blue *{
+  margin: 0;
+    font-size: 15.8px;
+  padding:0;
+}
+
+
+
+
+
+
+.alert--red{
+
+  border: 1px solid white;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: #eee;
+  background-color: rgba(212, 36, 58, 0.904);
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--red *{
+  margin: 0;
+    font-size: 15.8px;
+  padding:0;
+}
+
+
+
+
+
+
+.alert--orange{
+
+  border: 1px solid white;
+  margin: 0;
+  padding: .5em;
+  border-radius: 4px;
+  width: inherit;
+  color: #eee;
+  background-color: #c78c20;
+  font-family: roboto;
+  text-align: center;
+  font-weight: 500;
+
+}
+.alert--orange *{
+  margin: 0;
+    font-size: 15.8px;
+  padding:0;
+}

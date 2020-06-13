@@ -1,0 +1,11 @@
+<li> 1. alert--error</li>
+<li> 2. alert--success</li>
+<li> 3. alert--warning</li>
+<li> 4. alert--await</li>
+<li> 5. alert--transparent</li>
+<li> 6. alert--magenta</li>
+<li> 7. alert--blue</li>
+<li> 8. alert--blue-dark</li>
+<li> 9. alert--purple</li>
+<li> 10. alert--orange</li>
+<li> 11. alert--red</li>
